@@ -23,5 +23,5 @@ class TestStudentsInMLOps(unittest.TestCase):
     def test_getClassName(self):
         self.assertEqual(self.students.getClassName(), "StudentsInMLOps")
 
-if _NamedFuncPointer == '_main_':
+if __name__ == '_main_':
     unittest.main()
