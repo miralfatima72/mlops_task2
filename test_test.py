@@ -24,4 +24,5 @@ class TestStudentsInMLOps(unittest.TestCase):
         self.assertEqual(self.students.getClassName(), "StudentsInMLOps")
 
 if __name__ == '_main_':
+    ok=0
     unittest.main()
