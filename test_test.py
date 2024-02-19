@@ -1,3 +1,4 @@
+from ctypes import _NamedFuncPointer
 import unittest
 from main import StudentsInMLOps
 
@@ -22,5 +23,5 @@ class TestStudentsInMLOps(unittest.TestCase):
     def test_getClassName(self):
         self.assertEqual(self.students.getClassName(), "StudentsInMLOps")
 
-if _name_ == '_main_':
+if _NamedFuncPointer == '_main_':
     unittest.main()
