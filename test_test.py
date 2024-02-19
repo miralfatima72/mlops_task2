@@ -1,4 +1,3 @@
-from ctypes import _NamedFuncPointer
 import unittest
 from main import StudentsInMLOps
 
